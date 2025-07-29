@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Currículo – Diego Alves de Souza</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="theme-toggle">
+    <button id="toggle-theme"><i class="fas fa-moon"></i></button>
+  </div>
+
   <div class="container">
     <div class="header">
-      <h1>Diego Alves de Souza</h1>
-      <p>São Paulo – SP | (11) 94895-4212 | <a href="mailto:digsouza1@outlook.com">digsouza1@outlook.com</a></p>
-      <p><a href="https://www.linkedin.com/in/diego-a-ab77a0180">LinkedIn</a> | <a href="https://github.com/DiegoAlvesprogramer">GitHub</a></p>
+      <h1><i class="fas fa-user"></i> Diego Alves de Souza</h1>
+      <p><i class="fas fa-map-marker-alt"></i> São Paulo – SP</p>
+      <p><i class="fas fa-phone"></i> (11) 94895-4212 | <i class="fas fa-envelope"></i> <a href="mailto:digsouza1@outlook.com">digsouza1@outlook.com</a></p>
+      <p>
+        <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/diego-a-ab77a0180">LinkedIn</a> |
+        <i class="fab fa-github"></i> <a href="https://github.com/DiegoAlvesprogramer">GitHub</a>
+      </p>
+      <a class="download-btn" href="curriculo-diego.pdf" download><i class="fas fa-download"></i> Baixar Currículo em PDF</a>
     </div>
 
     <div class="section">
-      <h2>Objetivo</h2>
+      <h2><i class="fas fa-bullseye"></i> Objetivo</h2>
       <p>Recém-formado em Análise e Desenvolvimento de Sistemas com foco em transformar dados em soluções estratégicas. Busco atuar como <strong>Analista de Dados Júnior</strong>, colaborando com análises, automações e visualizações que gerem impacto nas decisões de negócio.</p>
     </div>
 
     <div class="section">
-      <h2>Competências Técnicas</h2>
+      <h2><i class="fas fa-tools"></i> Competências Técnicas</h2>
       <table class="skills-table">
         <tr><td>Manipulação de Dados</td><td>Python (Pandas), SQL, MySQL</td></tr>
         <tr><td>Visualização</td><td>Power BI, Excel Avançado</td></tr>
@@ -32,23 +42,13 @@
       </table>
     </div>
 
-    <div class="section two-columns">
-      <div class="column">
-        <h2>Formação</h2>
-        <p><strong>UNINOVE Santo Amaro</strong><br>Análise e Desenvolvimento de Sistemas<br>Conclusão: Julho/2024</p>
-      </div>
-
-      <div class="column">
-        <h2>Idiomas</h2>
-        <ul>
-          <li>Inglês: Intermediário</li>
-          <li>Espanhol: Básico</li>
-        </ul>
-      </div>
+    <div class="section">
+      <h2><i class="fas fa-graduation-cap"></i> Formação</h2>
+      <p><strong>UNINOVE Santo Amaro</strong><br>Análise e Desenvolvimento de Sistemas<br>Conclusão: Julho/2024</p>
     </div>
 
     <div class="section">
-      <h2>Experiência Profissional</h2>
+      <h2><i class="fas fa-briefcase"></i> Experiência Profissional</h2>
       <p><strong>Ortobom – Vendedor Responsável</strong> (Mai/2023 – Atual)</p>
       <ul>
         <li>Superação de metas com técnicas consultivas com base em dados.</li>
@@ -64,14 +64,14 @@
     </div>
 
     <div class="section">
-      <h2>Projetos Pessoais</h2>
+      <h2><i class="fas fa-flask"></i> Projetos Pessoais</h2>
       <p><strong>Snake Game</strong> – Python + Pygame<br>
       Projeto voltado para lógica de programação e estrutura modular com POO.<br>
-      <a href="https://github.com/SnakePythonPOO">Ver no GitHub</a></p>
+      <a href="https://github.com/SnakePythonPOO"><i class="fab fa-github"></i> Ver no GitHub</a></p>
     </div>
 
     <div class="section">
-      <h2>Cursos Complementares</h2>
+      <h2><i class="fas fa-book-open"></i> Cursos Complementares</h2>
       <ul>
         <li>Programação em Python – SENAI</li>
         <li>Banco de Dados Relacionais, Git, Kotlin e Java – DIO</li>
@@ -80,7 +80,15 @@
     </div>
 
     <div class="section">
-      <h2>Habilidades Interpessoais</h2>
+      <h2><i class="fas fa-language"></i> Idiomas</h2>
+      <ul>
+        <li>Inglês: Intermediário</li>
+        <li>Espanhol: Básico</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2><i class="fas fa-user-check"></i> Habilidades Interpessoais</h2>
       <ul>
         <li>Comunicação clara e objetiva</li>
         <li>Proatividade e aprendizado rápido</li>
@@ -89,5 +97,7 @@
       </ul>
     </div>
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
